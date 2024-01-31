@@ -1,0 +1,13 @@
+ri 1-54 
+name 17 RES
+ri 55-108
+name 18 PULL 
+ri 1-27  
+name 19 RESB
+ri 55-81
+name 20 PULLB 
+ri 28-54  
+name 21 REST
+ri 82-108
+name 22 PULLT 
+q
