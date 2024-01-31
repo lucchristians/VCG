@@ -1,0 +1,105 @@
+Installed  NO: package ADIOS
+Installed  NO: package ASPHERE
+Installed  NO: package ATC
+Installed  NO: package AWPMD
+Installed  NO: package BOCS
+Installed YES: package BODY
+Installed  NO: package BPM
+Installed  NO: package BROWNIAN
+Installed  NO: package CG-DNA
+Installed  NO: package CG-SDK
+Installed  NO: package CLASS2
+Installed  NO: package COLLOID
+Installed  NO: package COLVARS
+Installed  NO: package COMPRESS
+Installed  NO: package CORESHELL
+Installed  NO: package DIELECTRIC
+Installed  NO: package DIFFRACTION
+Installed  NO: package DIPOLE
+Installed  NO: package DPD-BASIC
+Installed  NO: package DPD-MESO
+Installed  NO: package DPD-REACT
+Installed  NO: package DPD-SMOOTH
+Installed  NO: package DRUDE
+Installed  NO: package EFF
+Installed  NO: package ELECTRODE
+Installed  NO: package EXTRA-COMPUTE
+Installed  NO: package EXTRA-DUMP
+Installed YES: package EXTRA-FIX
+Installed YES: package EXTRA-MOLECULE
+Installed YES: package EXTRA-PAIR
+Installed  NO: package FEP
+Installed  NO: package GPU
+Installed  NO: package GRANULAR
+Installed  NO: package H5MD
+Installed YES: package INTEL
+  src/dihedral_fourier_intel.cpp does not exist
+  src/electrode_accel_intel.cpp does not exist
+  src/fix_nve_asphere_intel.cpp does not exist
+  src/pair_dpd_intel.cpp does not exist
+  src/pair_gayberne_intel.cpp does not exist
+  src/pppm_electrode_intel.cpp does not exist
+  src/dihedral_fourier_intel.h does not exist
+  src/electrode_accel_intel.h does not exist
+  src/fix_electrode_conp_intel.h does not exist
+  src/fix_electrode_conq_intel.h does not exist
+  src/fix_electrode_thermo_intel.h does not exist
+  src/fix_nve_asphere_intel.h does not exist
+  src/pair_dpd_intel.h does not exist
+  src/pair_gayberne_intel.h does not exist
+  src/pppm_electrode_intel.h does not exist
+Installed  NO: package INTERLAYER
+Installed  NO: package KIM
+Installed  NO: package KOKKOS
+Installed YES: package KSPACE
+Installed  NO: package LATBOLTZ
+Installed  NO: package LATTE
+Installed  NO: package MACHDYN
+Installed  NO: package MANIFOLD
+Installed YES: package MANYBODY
+Installed  NO: package MC
+Installed  NO: package MDI
+Installed  NO: package MEAM
+Installed  NO: package MESONT
+Installed  NO: package MGPT
+Installed  NO: package MISC
+Installed  NO: package ML-HDNNP
+Installed  NO: package ML-IAP
+Installed  NO: package ML-PACE
+Installed  NO: package ML-QUIP
+Installed  NO: package ML-RANN
+Installed  NO: package ML-SNAP
+Installed  NO: package MOFFF
+Installed YES: package MOLECULE
+Installed YES: package MOLFILE
+Installed  NO: package MPIIO
+Installed  NO: package MSCG
+Installed  NO: package NETCDF
+Installed  NO: package OPENMP
+Installed  NO: package OPT
+Installed  NO: package ORIENT
+Installed  NO: package PERI
+Installed  NO: package PHONON
+Installed  NO: package PLUGIN
+Installed  NO: package PLUMED
+Installed  NO: package POEMS
+Installed  NO: package PTM
+Installed  NO: package PYTHON
+Installed  NO: package QEQ
+Installed  NO: package QMMM
+Installed  NO: package QTB
+Installed  NO: package REACTION
+Installed  NO: package REAXFF
+Installed  NO: package REPLICA
+Installed YES: package RIGID
+Installed  NO: package SCAFACOS
+Installed  NO: package SHOCK
+Installed  NO: package SMTBQ
+Installed  NO: package SPH
+Installed  NO: package SPIN
+Installed  NO: package SRD
+Installed  NO: package TALLY
+Installed  NO: package UEF
+Installed  NO: package VORONOI
+Installed  NO: package VTK
+Installed  NO: package YAFF
