@@ -1,0 +1,189 @@
+group res id 295:297 349:351 403:405 457:459 511:513
+fix vsi res move linear 0 0 0
+group g1 id 19:36 73:90 127:144 181:198 235:252
+group g2 id 289:306 343:360 397:414 451:468 505:522
+
+group g3 id 37:54 91:108 145:162 199:216 253:270
+group g4 id 307:324 361:378 415:432 469:486 523:540
+
+fix s0 g1 spring couple g2 10.0 -66.30   0.00   0.00 0
+fix s1 g3 spring couple g4 10.0 -66.80   0.00   0.00 0
+run 500000
+unfix s0
+unfix s1
+
+fix s0 g1 spring couple g2 10.0 -67.33   0.00   0.00 0
+fix s1 g3 spring couple g4 10.0 -67.83   0.00   0.00 0
+run 500000
+unfix s0
+unfix s1
+
+fix s0 g1 spring couple g2 10.0 -68.37   0.00   0.00 0
+fix s1 g3 spring couple g4 10.0 -68.87   0.00   0.00 0
+run 500000
+unfix s0
+unfix s1
+
+fix s0 g1 spring couple g2 10.0 -69.40   0.00   0.00 0
+fix s1 g3 spring couple g4 10.0 -69.90   0.00   0.00 0
+run 500000
+unfix s0
+unfix s1
+
+fix s0 g1 spring couple g2 10.0 -70.44   0.00   0.00 0
+fix s1 g3 spring couple g4 10.0 -70.94   0.00   0.00 0
+run 500000
+unfix s0
+unfix s1
+
+fix s0 g1 spring couple g2 10.0 -71.47   0.00   0.00 0
+fix s1 g3 spring couple g4 10.0 -71.97   0.00   0.00 0
+run 500000
+unfix s0
+unfix s1
+
+fix s0 g1 spring couple g2 10.0 -72.51   0.00   0.00 0
+fix s1 g3 spring couple g4 10.0 -73.01   0.00   0.00 0
+run 500000
+unfix s0
+unfix s1
+
+fix s0 g1 spring couple g2 10.0 -73.54   0.00   0.00 0
+fix s1 g3 spring couple g4 10.0 -74.04   0.00   0.00 0
+run 500000
+unfix s0
+unfix s1
+
+fix s0 g1 spring couple g2 10.0 -74.58   0.00   0.00 0
+fix s1 g3 spring couple g4 10.0 -75.08   0.00   0.00 0
+run 500000
+unfix s0
+unfix s1
+
+fix s0 g1 spring couple g2 10.0 -75.61   0.00   0.00 0
+fix s1 g3 spring couple g4 10.0 -76.11   0.00   0.00 0
+run 500000
+unfix s0
+unfix s1
+
+fix s0 g1 spring couple g2 10.0 -76.64   0.00   0.00 0
+fix s1 g3 spring couple g4 10.0 -77.14   0.00   0.00 0
+run 500000
+unfix s0
+unfix s1
+
+fix s0 g1 spring couple g2 10.0 -77.68   0.00   0.00 0
+fix s1 g3 spring couple g4 10.0 -78.18   0.00   0.00 0
+run 500000
+unfix s0
+unfix s1
+
+fix s0 g1 spring couple g2 10.0 -78.71   0.00   0.00 0
+fix s1 g3 spring couple g4 10.0 -79.21   0.00   0.00 0
+run 500000
+unfix s0
+unfix s1
+
+fix s0 g1 spring couple g2 10.0 -79.75   0.00   0.00 0
+fix s1 g3 spring couple g4 10.0 -80.25   0.00   0.00 0
+run 500000
+unfix s0
+unfix s1
+
+fix s0 g1 spring couple g2 10.0 -80.78   0.00   0.00 0
+fix s1 g3 spring couple g4 10.0 -81.28   0.00   0.00 0
+run 500000
+unfix s0
+unfix s1
+
+fix s0 g1 spring couple g2 10.0 -81.82   0.00   0.00 0
+fix s1 g3 spring couple g4 10.0 -82.32   0.00   0.00 0
+run 500000
+unfix s0
+unfix s1
+
+fix s0 g1 spring couple g2 10.0 -82.85   0.00   0.00 0
+fix s1 g3 spring couple g4 10.0 -83.35   0.00   0.00 0
+run 500000
+unfix s0
+unfix s1
+
+fix s0 g1 spring couple g2 10.0 -83.89   0.00   0.00 0
+fix s1 g3 spring couple g4 10.0 -84.39   0.00   0.00 0
+run 500000
+unfix s0
+unfix s1
+
+fix s0 g1 spring couple g2 10.0 -84.92   0.00   0.00 0
+fix s1 g3 spring couple g4 10.0 -85.42   0.00   0.00 0
+run 500000
+unfix s0
+unfix s1
+
+fix s0 g1 spring couple g2 10.0 -85.96   0.00   0.00 0
+fix s1 g3 spring couple g4 10.0 -86.46   0.00   0.00 0
+run 500000
+unfix s0
+unfix s1
+
+fix s0 g1 spring couple g2 10.0 -86.99   0.00   0.00 0
+fix s1 g3 spring couple g4 10.0 -87.49   0.00   0.00 0
+run 500000
+unfix s0
+unfix s1
+
+fix s0 g1 spring couple g2 10.0 -88.02   0.00   0.00 0
+fix s1 g3 spring couple g4 10.0 -88.52   0.00   0.00 0
+run 500000
+unfix s0
+unfix s1
+
+fix s0 g1 spring couple g2 10.0 -89.06   0.00   0.00 0
+fix s1 g3 spring couple g4 10.0 -89.56   0.00   0.00 0
+run 500000
+unfix s0
+unfix s1
+
+fix s0 g1 spring couple g2 10.0 -90.09   0.00   0.00 0
+fix s1 g3 spring couple g4 10.0 -90.59   0.00   0.00 0
+run 500000
+unfix s0
+unfix s1
+
+fix s0 g1 spring couple g2 10.0 -91.13   0.00   0.00 0
+fix s1 g3 spring couple g4 10.0 -91.63   0.00   0.00 0
+run 500000
+unfix s0
+unfix s1
+
+fix s0 g1 spring couple g2 10.0 -92.16   0.00   0.00 0
+fix s1 g3 spring couple g4 10.0 -92.66   0.00   0.00 0
+run 500000
+unfix s0
+unfix s1
+
+fix s0 g1 spring couple g2 10.0 -93.20   0.00   0.00 0
+fix s1 g3 spring couple g4 10.0 -93.70   0.00   0.00 0
+run 500000
+unfix s0
+unfix s1
+
+fix s0 g1 spring couple g2 10.0 -94.23   0.00   0.00 0
+fix s1 g3 spring couple g4 10.0 -94.73   0.00   0.00 0
+run 500000
+unfix s0
+unfix s1
+
+fix s0 g1 spring couple g2 10.0 -95.27   0.00   0.00 0
+fix s1 g3 spring couple g4 10.0 -95.77   0.00   0.00 0
+run 500000
+unfix s0
+unfix s1
+
+fix s0 g1 spring couple g2 10.0 -96.30   0.00   0.00 0
+fix s1 g3 spring couple g4 10.0 -96.80   0.00   0.00 0
+run 500000
+unfix s0
+unfix s1
+
+write_data outfile1.data

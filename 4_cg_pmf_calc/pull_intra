@@ -1,0 +1,202 @@
+fix vsi res move linear 0 0 0
+fix d1 vsj move linear 0.0 5.128205128205127e-07 0.0
+run 50000
+unfix d1
+fix d1 vsj move linear 0.0 0.0 0.0
+run 450000
+fix d1 vsj move linear 0.0 5.128205128205127e-07 0.0
+run 50000
+unfix d1
+fix d1 vsj move linear 0.0 0.0 0.0
+run 450000
+fix d1 vsj move linear 0.0 5.128205128205127e-07 0.0
+run 50000
+unfix d1
+fix d1 vsj move linear 0.0 0.0 0.0
+run 450000
+fix d1 vsj move linear 0.0 5.128205128205127e-07 0.0
+run 50000
+unfix d1
+fix d1 vsj move linear 0.0 0.0 0.0
+run 450000
+fix d1 vsj move linear 0.0 5.128205128205127e-07 0.0
+run 50000
+unfix d1
+fix d1 vsj move linear 0.0 0.0 0.0
+run 450000
+fix d1 vsj move linear 0.0 5.128205128205127e-07 0.0
+run 50000
+unfix d1
+fix d1 vsj move linear 0.0 0.0 0.0
+run 450000
+fix d1 vsj move linear 0.0 5.128205128205127e-07 0.0
+run 50000
+unfix d1
+fix d1 vsj move linear 0.0 0.0 0.0
+run 450000
+fix d1 vsj move linear 0.0 5.128205128205127e-07 0.0
+run 50000
+unfix d1
+fix d1 vsj move linear 0.0 0.0 0.0
+run 450000
+fix d1 vsj move linear 0.0 5.128205128205127e-07 0.0
+run 50000
+unfix d1
+fix d1 vsj move linear 0.0 0.0 0.0
+run 450000
+fix d1 vsj move linear 0.0 5.128205128205127e-07 0.0
+run 50000
+unfix d1
+fix d1 vsj move linear 0.0 0.0 0.0
+run 450000
+fix d1 vsj move linear 0.0 5.128205128205127e-07 0.0
+run 50000
+unfix d1
+fix d1 vsj move linear 0.0 0.0 0.0
+run 450000
+fix d1 vsj move linear 0.0 5.128205128205127e-07 0.0
+run 50000
+unfix d1
+fix d1 vsj move linear 0.0 0.0 0.0
+run 450000
+fix d1 vsj move linear 0.0 5.128205128205127e-07 0.0
+run 50000
+unfix d1
+fix d1 vsj move linear 0.0 0.0 0.0
+run 450000
+fix d1 vsj move linear 0.0 5.128205128205127e-07 0.0
+run 50000
+unfix d1
+fix d1 vsj move linear 0.0 0.0 0.0
+run 450000
+fix d1 vsj move linear 0.0 5.128205128205127e-07 0.0
+run 50000
+unfix d1
+fix d1 vsj move linear 0.0 0.0 0.0
+run 450000
+fix d1 vsj move linear 0.0 5.128205128205127e-07 0.0
+run 50000
+unfix d1
+fix d1 vsj move linear 0.0 0.0 0.0
+run 450000
+fix d1 vsj move linear 0.0 5.128205128205127e-07 0.0
+run 50000
+unfix d1
+fix d1 vsj move linear 0.0 0.0 0.0
+run 450000
+fix d1 vsj move linear 0.0 5.128205128205127e-07 0.0
+run 50000
+unfix d1
+fix d1 vsj move linear 0.0 0.0 0.0
+run 450000
+fix d1 vsj move linear 0.0 5.128205128205127e-07 0.0
+run 50000
+unfix d1
+fix d1 vsj move linear 0.0 0.0 0.0
+run 450000
+fix d1 vsj move linear 0.0 5.128205128205127e-07 0.0
+run 50000
+unfix d1
+fix d1 vsj move linear 0.0 0.0 0.0
+run 450000
+fix d1 vsj move linear 0.0 5.128205128205127e-07 0.0
+run 50000
+unfix d1
+fix d1 vsj move linear 0.0 0.0 0.0
+run 450000
+fix d1 vsj move linear 0.0 5.128205128205127e-07 0.0
+run 50000
+unfix d1
+fix d1 vsj move linear 0.0 0.0 0.0
+run 450000
+fix d1 vsj move linear 0.0 5.128205128205127e-07 0.0
+run 50000
+unfix d1
+fix d1 vsj move linear 0.0 0.0 0.0
+run 450000
+fix d1 vsj move linear 0.0 5.128205128205127e-07 0.0
+run 50000
+unfix d1
+fix d1 vsj move linear 0.0 0.0 0.0
+run 450000
+fix d1 vsj move linear 0.0 5.128205128205127e-07 0.0
+run 50000
+unfix d1
+fix d1 vsj move linear 0.0 0.0 0.0
+run 450000
+fix d1 vsj move linear 0.0 5.128205128205127e-07 0.0
+run 50000
+unfix d1
+fix d1 vsj move linear 0.0 0.0 0.0
+run 450000
+fix d1 vsj move linear 0.0 5.128205128205127e-07 0.0
+run 50000
+unfix d1
+fix d1 vsj move linear 0.0 0.0 0.0
+run 450000
+fix d1 vsj move linear 0.0 5.128205128205127e-07 0.0
+run 50000
+unfix d1
+fix d1 vsj move linear 0.0 0.0 0.0
+run 450000
+fix d1 vsj move linear 0.0 5.128205128205127e-07 0.0
+run 50000
+unfix d1
+fix d1 vsj move linear 0.0 0.0 0.0
+run 450000
+fix d1 vsj move linear 0.0 5.128205128205127e-07 0.0
+run 50000
+unfix d1
+fix d1 vsj move linear 0.0 0.0 0.0
+run 450000
+fix d1 vsj move linear 0.0 5.128205128205127e-07 0.0
+run 50000
+unfix d1
+fix d1 vsj move linear 0.0 0.0 0.0
+run 450000
+fix d1 vsj move linear 0.0 5.128205128205127e-07 0.0
+run 50000
+unfix d1
+fix d1 vsj move linear 0.0 0.0 0.0
+run 450000
+fix d1 vsj move linear 0.0 5.128205128205127e-07 0.0
+run 50000
+unfix d1
+fix d1 vsj move linear 0.0 0.0 0.0
+run 450000
+fix d1 vsj move linear 0.0 5.128205128205127e-07 0.0
+run 50000
+unfix d1
+fix d1 vsj move linear 0.0 0.0 0.0
+run 450000
+fix d1 vsj move linear 0.0 5.128205128205127e-07 0.0
+run 50000
+unfix d1
+fix d1 vsj move linear 0.0 0.0 0.0
+run 450000
+fix d1 vsj move linear 0.0 5.128205128205127e-07 0.0
+run 50000
+unfix d1
+fix d1 vsj move linear 0.0 0.0 0.0
+run 450000
+fix d1 vsj move linear 0.0 5.128205128205127e-07 0.0
+run 50000
+unfix d1
+fix d1 vsj move linear 0.0 0.0 0.0
+run 450000
+fix d1 vsj move linear 0.0 5.128205128205127e-07 0.0
+run 50000
+unfix d1
+fix d1 vsj move linear 0.0 0.0 0.0
+run 450000
+fix d1 vsj move linear 0.0 5.128205128205127e-07 0.0
+run 50000
+unfix d1
+fix d1 vsj move linear 0.0 0.0 0.0
+run 450000
+fix d1 vsj move linear 0.0 5.128205128205127e-07 0.0
+run 50000
+unfix d1
+fix d1 vsj move linear 0.0 0.0 0.0
+run 450000
+write_data outfile1.data

@@ -1,0 +1,43 @@
+variable TEMP   equal 277.0
+variable PRESS equal 0.0
+
+variable  SEED5   equal $( v_SEED + 30192 )
+
+#include "outfile.in.init"
+units     real
+atom_style     full
+read_data "outfile.data" 
+#displace_atoms all move   127.5   127.5  127.5
+
+pair_style hybrid/overlay coul/debye 0.234 25.0 soft 5.0 gauss/cut 25.0
+dielectric 45.0
+comm_modify mode single cutoff 27.5
+bond_style harmonic
+include "outfile.in.settings"
+neigh_modify every 1 delay 0 check yes
+neigh_modify exclude molecule/intra all
+#comm_style tiled
+#fix 2 all balance 25000 0.95 rcb
+minimize 1e-4 1e-6 5000 50000
+fix nve all nve
+#fix nvt all nvt temp ${TEMP} ${TEMP} 40000.0
+fix nvt all langevin ${TEMP} ${TEMP} 40000.0 ${SEED5}
+
+
+#fix rig all rigid molecule 
+velocity all create ${TEMP} ${SEED5} rot yes dist gaussian
+compute 1 all pair gauss/cut
+
+thermo 50000 
+thermo_style custom step spcpu temp press pe ke c_1 evdwl ecoul ebond    
+timestep 30.0
+
+#dump 1 all custom 50000 equil.lammpstrj id type x y z fx fy fz
+#dump_modify 1 sort id
+#run 750000
+#undump 1
+
+dump 2 all custom 20 sub${ITER}.lammpstrj id type x y z fx fy fz
+dump_modify 2 sort id
+
+write_data outfile1.data
